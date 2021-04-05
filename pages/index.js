@@ -142,11 +142,12 @@ export default function Home() {
             <p className="my-4 mx-2">Estas son algunas de las empresas que trabajan con nosotros </p>
 
             <div className="mx-auto max-w-screen-lg">
-              <ul className="flex flex-wrap justify-center">
-                <li className="px-4"><img className="h-24" src="/diwa-logo.jpg" alt="" /></li>
-                <li className="px-4"><img className="h-24" src="/itsa-logo.jpg" alt="" /></li>
-                <li className="px-4"><img className="h-24" src="/apptitude-logo.jpg" alt="" /></li>
-                <li className="px-4"><img className="h-24" src="/siglo21-logo.jpg" alt="" /></li>
+              <ul className="flex flex-wrap justify-center items-center">
+
+                <li className="px-4 py-3"><img className="h-16" src="/s21.png" alt="" /></li>
+                <li className="px-4 py-3"><img className="h-24" src="/logo-reversed.svg" alt="" /></li>
+                <li className="px-4 py-3"><img className="h-16" src="/apptitude.png" alt="" /></li>
+                <li className="px-4 py-3"><img className="h-24" src="/diwa.png" alt="" /></li>
               </ul>
             </div>
           </div>

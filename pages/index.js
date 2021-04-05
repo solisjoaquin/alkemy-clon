@@ -135,6 +135,22 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="">
+          <div className="mx-auto max-w-screen-xl py-24 text-center">
+            <h3 className="text-3xl font-bold leading-7 py-4 text-black sm:text-4xl">ALKEMY PARTNERS </h3>
+            <p className="my-4 mx-2">Estas son algunas de las empresas que trabajan con nosotros </p>
+
+            <div className="mx-auto max-w-screen-lg">
+              <ul className="flex flex-wrap justify-center">
+                <li className="px-4"><img className="h-24" src="/diwa-logo.jpg" alt="" /></li>
+                <li className="px-4"><img className="h-24" src="/itsa-logo.jpg" alt="" /></li>
+                <li className="px-4"><img className="h-24" src="/apptitude-logo.jpg" alt="" /></li>
+                <li className="px-4"><img className="h-24" src="/siglo21-logo.jpg" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

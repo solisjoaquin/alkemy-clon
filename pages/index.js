@@ -141,9 +141,9 @@ export default function Home() {
           <div className="py-8 mx-4">
             <h4 className="text-lg font-semibold">Seguinos</h4>
             <ul>
-              <li className="mt-3"><a href="">Facebook</a></li>
-              <li className="mt-3"><a href="">Linkedin</a></li>
-              <li className="mt-3"><a href="">Instagram</a></li>
+              <li className="mt-3"><a href="https://www.facebook.com/Alkemy-109343017384167/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li className="mt-3"><a href="https://www.linkedin.com/company/alkemy2020/about/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+              <li className="mt-3"><a href="https://instagram.com/alkemy__?igshid=1ttbwhhfr3b8z" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
           </div>
         </div>

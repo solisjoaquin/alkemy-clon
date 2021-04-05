@@ -107,8 +107,8 @@ export default function Home() {
 
         </div>
         <div className="bg-gradient-to-r from-blue-400 to-indigo-500 ">
-          <div className="mx-auto max-w-screen-xl py-12 text-center">
-            <h3 className="text-3xl font-bold leading-7 py-4 text-white sm:text-4xl">Conoce a nuestros mentores</h3>
+          <div className="mx-auto max-w-screen-xl py-16 text-center">
+            <h3 className="text-3xl font-bold leading-7 py-4 mb-8 text-white sm:text-4xl">Conoce a nuestros mentores</h3>
 
             <div className="flex flex-col lg:flex-row">
 

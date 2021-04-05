@@ -65,7 +65,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-16 pb-5 mx-auto px-8 max-w-screen-xl mx-auto">
+          <div className="pt-16 pb-5 mx-auto px-8">
+
             <div className=" text-center">
               <h3 className="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl">Descubriendo Alkemy Labs en simples Pasos</h3>
 
@@ -101,8 +102,39 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
 
+
+
+        </div>
+        <div className="bg-gradient-to-r from-blue-400 to-indigo-500 ">
+          <div className="mx-auto max-w-screen-xl py-12 text-center">
+            <h3 className="text-3xl font-bold leading-7 py-4 text-white sm:text-4xl">Conoce a nuestros mentores</h3>
+
+            <div className="flex flex-col lg:flex-row">
+
+              <div className="bg-white my-6 text-center mx-5 px-4 pt-4 pb-8 rounded-lg shadow-lg lg:w-1/3">
+                <img className="w-24 h-24 mb-4  rounded-full mx-auto" src="/lucho.png" alt="lucho" />
+                <h2 className="text-lg font-semibold text-blue-500">Luciano Allegro </h2>
+                <h4 className="mt-3 text-base font-medium text-gray-600">CTO | DrApp</h4>
+                <img className="w-6 h-6 my-4 mx-auto" src="/linkedin.png" alt="" />
+              </div>
+
+              <div className="bg-white my-6 text-center mx-5 px-4 pt-4 pb-8 rounded-lg shadow-lg lg:w-1/3">
+                <img className="w-24 h-24  mb-4  rounded-full mx-auto" src="/alan.png" alt="alan" />
+                <h2 className="text-lg font-semibold text-blue-500">Alan Algamis</h2>
+                <h4 className="mt-3 text-base font-medium text-gray-600">Full stack developer | Roby.ai</h4>
+                <img className="w-6 h-6 my-4 mx-auto" src="/linkedin.png" alt="" />
+              </div>
+
+              <div className="bg-white my-6 text-center mx-5 px-2 pt-4 pb-8 rounded-lg shadow-lg lg:w-1/3">
+                <img className="w-24 h-24 mb-4 rounded-full mx-auto" src="/jpaillet.png" alt="jpaillet" />
+                <h2 className="text-lg font-semibold text-blue-500">Juan Pablo Paillet</h2>
+                <h4 className="mt-3 text-base font-medium text-gray-600">Full stack developer | Appstract</h4>
+                <img className="w-6 h-6 my-4 mx-auto" src="/linkedin.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

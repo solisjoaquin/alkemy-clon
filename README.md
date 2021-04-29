@@ -1,6 +1,6 @@
 # Alkemy Clon 
 
-[demo]( alkemy-clon.vercel.app)
+https://alkemy-clon.vercel.app/
 
 ## Technologies
 
